@@ -14,7 +14,7 @@ namespace PraktikaDekabr.ViewModels
 {
     public class LoginViewModel : ViewModelBase
     {
-        //Поля класса
+        //Переменные
         private string _username;
         private SecureString _password;
         private string _errorMessage;
