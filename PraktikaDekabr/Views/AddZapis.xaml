@@ -1,0 +1,23 @@
+﻿<Window x:Class="PraktikaDekabr.Views.AddZapis"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PraktikaDekabr.Views"
+         mc:Ignorable="d"
+              WindowStyle="None"
+              ResizeMode="NoResize"
+             Background="Transparent"
+              AllowsTransparency="True"
+             WindowStartupLocation="CenterScreen"
+             Title="Добавление" Height="200" Width="300">
+    <Border Style="{DynamicResource brdImage3}">
+
+        <Border Style="{DynamicResource BorderRamka}" CornerRadius="10,0,10,0" BorderThickness="2">
+            <Canvas>
+                <Label FontFamily="Cascadia Code" Content="Вы успешно добавили запись в таблицу!!" Foreground="White" Canvas.Left="10" Canvas.Top="44" />
+                <Button Content="ОК" Canvas.Left="73" Style="{DynamicResource btnlogstyle}" Foreground="White" Template="{DynamicResource vid2}" Canvas.Top="115"  HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click"/>
+            </Canvas>
+        </Border>
+    </Border>
+</Window>
