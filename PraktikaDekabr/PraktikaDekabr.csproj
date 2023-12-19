@@ -55,8 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
+    <Compile Include="ViewModels\ViewModelCommand.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -99,6 +103,22 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\back-pc.jpg" />
+    <Resource Include="Images\back-pc2.jpg" />
+    <Resource Include="Images\back-pc2d.jpg" />
+    <Resource Include="Images\back-pc3.jpg" />
+    <Resource Include="Images\back-pc3d.jpg" />
+    <Resource Include="Images\back-pcd.jpg" />
+    <Resource Include="Images\back.png" />
+    <Resource Include="Images\Icon.png" />
+    <Resource Include="Images\key-icon.png" />
+    <Resource Include="Images\pc-icon.png" />
+    <Resource Include="Images\plus1.png" />
+    <Resource Include="Images\settings.png" />
+    <Resource Include="Images\settingslight.png" />
+    <Resource Include="Images\user-icon.png" />
+    <Resource Include="Images\user.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
